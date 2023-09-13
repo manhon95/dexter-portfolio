@@ -11,44 +11,35 @@
     <script src="tailwind.config.js"></script>
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Dexter Kwong</title>
   </head>
   <body>
-    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-xl tracking-tight">DEXTER KWONG</span>
-      </div>
-      <div class="block lg:hidden">
-        <button
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+    <nav
+      class="flex items-center justify-between flex-wrap bg-gradient-to-b from-gray-200 to-white p-6 shadow-md"
+    >
+      <div class="flex items-center flex-shrink-0 text-black mr-6">
+        <span class="font-semibold text-sm tracking-tight ml-16"
+          >DEXTER KWONG</span
         >
-          <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
       </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
+      <div class="block flex items-center w-auto">
+        <div class="text-sm flex-grow">
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="inline-block mt-0 text-black hover:text-gray-400 mr-4"
           >
             Work
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="inline-block mt-0 text-black hover:text-gray-400 mr-4"
           >
             About
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+            class="inline-block mt-0 text-black hover:text-gray-400"
           >
             CV <i class="fa-solid fa-download"></i>
           </a>
@@ -57,9 +48,13 @@
     </nav>
     <main>
       <section class="introduction">
-        <div class="text-center">
-          <h1>DEXTER KWONG</h1>
-          <p>USER-CENTRIC MINDSET, PROJECT-READY SKILLS.</p>
+        <div class="text-center w-144 p-10 mx-auto">
+          <p class="text-lg mb-3">DEXTER KWONG</p>
+          <p
+            class="text-6xl font-extrabold bg-gradient-to-b from-teal-800 via-blue-500 to-violet-800 text-transparent bg-clip-text bg-size-2 animate-bg-pan"
+          >
+            USER-CENTRIC MINDSET, PROJECT-READY SKILLS.
+          </p>
         </div>
       </section>
       <section class="about-me">
