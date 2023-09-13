@@ -1,7 +1,13 @@
 tailwind.config = {
   theme: {
-    container: {
-      center: true,
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      futura: ["Futura Std", "sans-serif"],
+    },
+    extend: {
+      spacing: {
+        128: "32rem",
+      },
     },
   },
 };
