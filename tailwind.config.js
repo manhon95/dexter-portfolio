@@ -15,12 +15,22 @@ tailwind.config = {
         144: "36rem",
       },
       animation: {
-        "bg-pan": "bg-pan-top 8s both infinite",
+        "bg-pan-top": "bg-pan-top 8s both infinite",
+        "text-blur-out":
+          "text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both",
       },
       keyframes: {
         "bg-pan-top": {
           "0%, 100%": { "background-position": "top" },
           "50%": { "background-position": "bottom" },
+        },
+        "text-blur-out": {
+          "0%, 100%": {
+            filter: "blur(0.01)",
+          },
+          "50%": {
+            filter: "blur(0.1rem)",
+          },
         },
       },
       backgroundSize: {
