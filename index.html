@@ -173,17 +173,31 @@
             </section>
           </div>
           <section class="resume">
-            <div class="flex justify-end pt-2 pb-3 pr-4">
-              <label>
-                <input type="checkbox" class="peer/more-resume hidden" />
-                <p
-                  class="text-2xs font-poppins text-gray-400 underline hover:text-white hover:font-bold"
-                >
-                  More on Resume>
-                </p>
-                <div class="hidden peer-checked/more-resume:block">
-                  <p>WORKING EXPERIENCE</p>
-                  <p>
+            <div class="relative">
+              <input
+                type="checkbox"
+                id="more-resume"
+                class="peer/more-resume hidden"
+              />
+              <div class="flex justify-end pt-2 pb-3 pr-4">
+                <label for="more-resume">
+                  <p
+                    class="text-2xs font-poppins text-gray-400 underline hover:text-white hover:font-bold"
+                  >
+                    More on Resume>
+                  </p>
+                </label>
+              </div>
+              <div
+                class="h-0 opacity-0 peer-checked/more-resume:opacity-100 peer-checked/more-resume:h-160 transition-all duration-500"
+              >
+                <div class="ml-7">
+                  <p class="text-base font-poppins text-white mb-2">
+                    WORKING EXPERIENCE
+                  </p>
+                  <p
+                    class="text-2xs font-poppins text-white leading-4 mb-6 w-128"
+                  >
                     Account and project manager with in-depth experiences in
                     various aspects of marketing communication including
                     branding, advertising, event management, digital experience
@@ -192,53 +206,150 @@
                     management, planning, budgeting, solution finding to
                     execution.
                   </p>
-                  <p>Self-employed</p>
-                  <p>Freelance Project Manager</p>
-                  <p>Sep 2022 - Current</p>
-                  <p>
-                    Partnered with agencies to manage and oversee projects based
-                    on client's need. Liaised with client and related parties on
-                    a day-to-day basis to ensure smooth execution through out
-                    the while project cycle. Clients worked with during:
-                    Cartier, Hennessy, Dom Pérignon, Krug, Coca-Cola, The Mills,
-                    HKJC
-                  </p>
-                  <p>Ogilvy & Mather Marketing Communications Ltd.</p>
-                  <p>Account Manager, Program Supervisor</p>
-                  <p>Apr 2021 -Aug 2022</p>
-                  <p>
-                    Partnered with clients to best understand and accommodate
-                    their needs on providing strategic service, marketing
-                    campaign creative development and implementation for their
-                    brands. Experienced in managing the smooth delivery of brand
-                    strategy, advertising production (Print & TVC videos),
-                    social media plan and content. Liaised with internal and
-                    external resources in a clear, detailed manner. Ensured all
-                    deliverables are delivered within budget and in a timely
-                    manner. Brands worked with: AIA, Rolex, Asia Miles,
-                    Coca-Cola (Sprite, 淳。茶舍), Huawei, Chinachem Group.
-                  </p>
-                  <p>What If Ltd.</p>
-                  <p>Project Manager - Events & Digital Experiences</p>
-                  <p>2018 -2020</p>
-                  <p>
-                    As the project and account lead, managed and executed 35+
-                    brand events and digital experiential projects through
-                    direct liaison with clients. Coordinated with director and
-                    engaged with designers, third-party vendors and overseeing
-                    budgets (ranged from HK$300K to HK$6M). Managed the full
-                    event cycles, from pitching, pre-event budget & planning,
-                    creative & content development, to onsite execution
-                    including set & stage production, manpower and stage
-                    management. Managed a great varieties of digital experience
-                    developments, including websites, app, AR, WeChat Program,
-                    and onsite immersive interactive interfaces. Engaged in
-                    designing UX and wireframe. Brands worked with: Tesla, Audi,
-                    Rolls Royce, Shiseido, Cartier, Hennessy, Dom Pérignon,
-                    Tudor, Hublot, FWD, AIA.
-                  </p>
                 </div>
-              </label>
+                <section class="self-employed">
+                  <div class="flex flex-row px-7 mb-6">
+                    <img
+                      class="w-[100px] h-[100px] mr-4"
+                      src="./assets/self-employed.png"
+                    />
+                    <div>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        Self-employed
+                      </p>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        Freelance Project Manager
+                        <span class="text-2xs font-normal ml-2">
+                          Sep 2022 - Current
+                        </span>
+                      </p>
+                      <ul
+                        class="list-disc list-outside text-2xs font-poppins text-white pl-4"
+                      >
+                        <li class="mb-1">
+                          Partnered with agencies to manage and oversee projects
+                          based on client's need.
+                        </li>
+                        <li class="mb-1">
+                          Liaised with client and related parties on a
+                          day-to-day basis to ensure smooth execution through
+                          out the while project cycle.
+                        </li>
+                        <li class="mb-1">
+                          Clients worked with during: Cartier, Hennessy, Dom
+                          Pérignon, Krug, Coca-Cola, The Mills, HKJC
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="ogilvy-and-mather">
+                  <div class="flex flex-row px-7 mb-6">
+                    <img
+                      class="w-[100px] h-[100px] mr-4"
+                      src="./assets/ogilvy-and-mather.png"
+                    />
+                    <div>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        Ogilvy & Mather Marketing Communications Ltd.
+                      </p>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        Account Manager, Program Supervisor
+                        <span class="text-2xs font-normal ml-2">
+                          Apr 2021 - Aug 2022
+                        </span>
+                      </p>
+                      <ul
+                        class="list-disc list-outside text-2xs font-poppins text-white pl-4"
+                      >
+                        <li class="mb-1">
+                          Partnered with clients to best understand and
+                          accommodate their needs on providing strategic
+                          service, marketing campaign creative development and
+                          implementation for their brands.
+                        </li>
+                        <li class="mb-1">
+                          Experienced in managing the smooth delivery of brand
+                          strategy, advertising production (Print & TVC videos),
+                          social media plan and content.
+                        </li>
+                        <li class="mb-1">
+                          Ensured all deliverables are delivered within budget
+                          and in a timely manner.
+                        </li>
+                        <li class="mb-1">
+                          Brands worked with: AIA, Rolex, Asia Miles, Coca-Cola
+                          (Sprite, 淳。茶舍), Huawei, Chinachem Group.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+                <section class="what-if">
+                  <div class="flex flex-row px-7 mb-6">
+                    <img
+                      class="w-[100px] h-[100px] mr-4"
+                      src="./assets/what-if.png"
+                    />
+                    <div>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        What If Ltd.
+                      </p>
+                      <p
+                        class="text-xs font-poppins font-semibold text-white mb-2"
+                      >
+                        Project Manager - Events & Digital Experiences
+                        <span class="text-2xs font-normal ml-2">
+                          2018 - 2020
+                        </span>
+                      </p>
+                      <ul
+                        class="list-disc list-outside text-2xs font-poppins text-white pl-4"
+                      >
+                        <li class="mb-1">
+                          As the project and account lead, managed and executed
+                          35+ brand events and digital experiential projects
+                          through direct liaison with clients.
+                        </li>
+                        <li class="mb-1">
+                          Coordinated with director and engaged with designers,
+                          third-party vendors and overseeing budgets (ranged
+                          from HK$300K to HK$6M).
+                        </li>
+                        <li class="mb-1">
+                          Managed the full event cycles, from pitching,
+                          pre-event budget & planning, creative & content
+                          development, to onsite execution including set & stage
+                          production, manpower and stage management.
+                        </li>
+                        <li class="mb-1">
+                          Managed a great varieties of digital experience
+                          developments, including websites, app, AR, WeChat
+                          Program, and onsite immersive interactive interfaces.
+                        </li>
+                        <li class="mb-1">
+                          Engaged in designing UX and wireframe.
+                        </li>
+                        <li class="mb-1">
+                          Brands worked with: Tesla, Audi, Rolls Royce,
+                          Shiseido, Cartier, Hennessy, Dom Pérignon, Tudor,
+                          Hublot, FWD, AIA.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
             </div>
           </section>
         </div>

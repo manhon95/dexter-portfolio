@@ -5,6 +5,7 @@ tailwind.config = {
         104: "26rem",
         112: "28rem",
         128: "32rem",
+        160: "40rem",
       },
       fontSize: {
         "2xs": ["0.625rem", "0.75rem"],
