@@ -14,12 +14,6 @@ tailwind.config = {
         poppins: ["Poppins", "sans-serif"],
         futura: ["Futura Std", "sans-serif"],
       },
-    },
-    extend: {
-      width: {
-        128: "32rem",
-        144: "36rem",
-      },
       animation: {
         "bg-pan-top": "bg-pan-top 8s both infinite",
         "text-blur-out":
